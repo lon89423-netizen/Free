@@ -56,7 +56,7 @@ const products = [
     { name: 'MENU IOS CAO/THẤP', desc: 'CRACK LIVECHU', img: 'https://i.postimg.cc/3xcvgg3y/IMG-5984.png',
         link: 'https://vuotnhanh.com/fpfj', tag: 'NEW' },
     { name: 'SÚNG PHÒNG XÀ DORAEMON', desc: '', img: 'https://i.postimg.cc/Bbcb08D4/IMG-6020.png',
-        link: 'https://zufile.com/download/5okkkFZyAf', tag: 'NEW' },
+        link: 'https://vuotnhanh.com/0eud', tag: 'NEW' },
     { name: 'ĐANG BẢO TRÌ', img: 'https://i.imgur.com/3rTpL6Q.png',
         link: 'https://', tag: 'NEW' },
     { name: 'ĐANG BẢO TRÌ', desc: 'ĐANG BẢO TRÌ', img: 'https://i.imgur.com/0sHdV7R.png',
