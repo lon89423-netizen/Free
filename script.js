@@ -70,12 +70,12 @@ audio.addEventListener('ended', function() {
 
 // ===== 10 SẢN PHẨM =====
 const products = [
-    { name: 'MOD NV INGIS', desc: 'MOD FREE', img: 'https://i.postimg.cc/YqXMX7jZ/Free-Fire-Screenshot-Temp.png',
-        link: 'https://vuotnhanh.com/1arD', tag: 'NEW', category: 'mod' },
+    { name: 'MOD NV KAPELLA', desc: 'MOD FREE', img: 'https://i.postimg.cc/3rpVFg75/IMG-6090.png',
+        link: 'https://vuotnhanh.com/VFnq', tag: 'NEW', category: 'mod' },
     { name: 'MENU RỜI TIPa', desc: 'menu SÀI IOS 17.18.7.1', img: 'https://i.postimg.cc/cHZLpmW5/IMG-5932.png',
         link: 'https://vuotnhanh.com/cYdZ', tag: 'new', category: 'menu' },
-    { name: 'MOD KEO ÁNH DƯƠNG', desc: 'ANTIBAN', img: 'https://i.postimg.cc/k4zqnvP2/IMG-5847.jpg',
-        link: 'https://vuotnhanh.com/4Ydp', tag: 'new', category: 'mod' },
+    { name: 'MOD NV IGNIS', desc: 'ANTIBAN', img: 'https://i.postimg.cc/NMby3yvg/IMG-6082.png',
+        link: 'https://vuotnhanh.com/ci9C', tag: 'new', category: 'mod' },
     { name: 'MOD KEO ÁNH DƯƠNG PI TIÊN', desc: 'SIU VIP', img: 'https://i.postimg.cc/HsP4TJVh/IMG-5938.jpg',
         link: 'https://vuotnhanh.com/suVQ', tag: 'NEW', category: 'mod' },
     { name: 'BÁN KÍNH', desc: 'FILZA ANTI FREE', img: 'https://i.postimg.cc/NjNmRtL9/IMG-5955.jpg',
