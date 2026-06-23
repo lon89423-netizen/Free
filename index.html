@@ -27,6 +27,11 @@
         </div>
     </div>
 
+    <!-- AUDIO PLAYER (THÊM MỚI) -->
+    <audio id="audioPlayer" loop>
+        <source src="https://invisible-coffee-mm0maf0f.edgeone.dev/snaptik.vn_7651415096773594389.mp3" type="audio/mpeg">
+    </audio>
+
     <!-- MAIN -->
     <div class="main-wrapper">
 
@@ -40,6 +45,8 @@
                 <span class="badge-neon green">🛡️ Anti Ban</span>
                 <span class="badge-neon blue">📦 Kho File</span>
                 <span class="badge-neon gold">⭐ Free</span>
+                <!-- NÚT NGHE NHẠC (THÊM MỚI) -->
+                <button class="badge-neon music-btn" id="musicBtn">🎵 NGHE NHẠC</button>
             </div>
         </nav>
 
@@ -60,11 +67,19 @@
             <span>ANTI BAN FREE — Hệ thống bảo vệ đa lớp, bypass an toàn tuyệt đối, cập nhật 2026</span>
         </div>
 
+        <!-- FILTER TABS -->
+        <div class="filter-tabs" id="filterTabs">
+            <button class="filter-btn active" data-filter="all">📋 TẤT CẢ</button>
+            <button class="filter-btn" data-filter="mod">🎮 MOD</button>
+            <button class="filter-btn" data-filter="file">📁 FILE</button>
+            <button class="filter-btn" data-filter="menu">📋 MENU</button>
+        </div>
+
         <!-- 10 MỤC -->
         <div class="section-header">
             <div class="line-glow"></div>
             <h2>📁 KHO FILE FREE ANTI FREE NÓI CHO CÓ</h2>
-            <span class="count">10 items</span>
+            <span class="count" id="itemCount">10 items</span>
         </div>
         <div class="product-list" id="productList"></div>
 
