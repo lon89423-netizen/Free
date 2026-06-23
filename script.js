@@ -41,7 +41,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// ===== MUSIC PLAYER (THÊM MỚI) =====
+// ===== MUSIC PLAYER =====
 const audio = document.getElementById('audioPlayer');
 const musicBtn = document.getElementById('musicBtn');
 let isPlaying = false;
@@ -62,7 +62,6 @@ musicBtn.addEventListener('click', function() {
     }
 });
 
-// Tự động dừng khi audio kết thúc
 audio.addEventListener('ended', function() {
     isPlaying = false;
     musicBtn.classList.remove('playing');
@@ -97,7 +96,6 @@ const list = document.getElementById('productList');
 const filterTabs = document.getElementById('filterTabs');
 const itemCount = document.getElementById('itemCount');
 
-// Render sản phẩm
 function renderProducts(category = 'all') {
     list.innerHTML = '';
     let visibleCount = 0;
@@ -142,7 +140,6 @@ function renderProducts(category = 'all') {
     itemCount.textContent = `${visibleCount} items`;
 }
 
-// ===== FILTER TABS =====
 filterTabs.addEventListener('click', function(e) {
     const btn = e.target.closest('.filter-btn');
     if (!btn) return;
@@ -154,7 +151,6 @@ filterTabs.addEventListener('click', function(e) {
     renderProducts(category);
 });
 
-// ===== KHỞI TẠO =====
 renderProducts('all');
 
 console.log('%c✨ SHOP FREE LIVECHU %c| %cSiêu Đẹp %c| %cAnti Ban Active %c| %c10 Mục + Xem Ảnh To + Lọc 3 phần + Nghe Nhạc',
